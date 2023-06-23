@@ -8,17 +8,17 @@ class Rectangle {
   get width() {
     return this._width;
   }
-
-  get height() {
-    return this._height;
-  }
-
-  getArea() {
-    return this._width * this._height;
-  }
+	get height() 
+	{
+		return this._height;
+	}
+	getArea() 
+	{
+	    return this._width * this._height;
+	}
 }
 
-class Square extends Animal {
+class Square extends Rectangle {
 	constructor(side) {
     super(side, side);
   }
